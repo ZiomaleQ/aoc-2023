@@ -30,7 +30,7 @@ fun main() {
   
   // test if implementation meets criteria from the description, like:
   val testInput = readInput("Day06_test")
-  check(part1(testInput).also { println(it) } == 288L)
+  check(part1(testInput) == 288L)
   
   val input = readInput("Day06")
   part1(input).println()
